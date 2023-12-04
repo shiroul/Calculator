@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+table { 
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: green; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+
+input:hover{
+    background-color: rgb(7, 119, 7);
+}
+
+input:active{
+    background-color: #1f2c38;
+    transition: background-color 0.1s ease;
+}
+
+#result, #operator{
+    border-collapse: collapse;
+}
+
+
+#result{
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    border: 2px solid black;
+
+}
+
+
+#operator{
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    border: 2px solid black;
+    text-align: center;
+}

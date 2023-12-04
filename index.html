@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>HTML Calculator</title> 
+    <link rel="stylesheet" href="styles.css">
+</head> 
+
+<body> 
+	<table id="calcu"> 
+		<tr> 
+			<td colspan="2" > 
+				<div id="result">0</div>
+			</td> 
+			<td colspan="1" >
+				<div id="operator">.</div>
+			</td>
+			<td><input type="button" value="c" id="c"></td> 
+		</tr> 
+
+		<tr> 
+			<td><input type="button" value="1" id="1"></td> 
+			<td><input type="button" value="2" id="2"></td> 
+			<td><input type="button" value="3" id="3"></td> 
+			<td><input type="button" value="/" id="/"></td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" id="4"></td> 
+			<td><input type="button" value="5" id="5"></td> 
+			<td><input type="button" value="6" id="6"></td> 
+			<td><input type="button" value="*" id="*"></td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" id="7"></td> 
+			<td><input type="button" value="8" id="8"></td> 
+			<td><input type="button" value="9" id="9"></td> 
+			<td><input type="button" value="-" id="-"></td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="0" id="0"></td> 
+			<td><input type="button" value="." id="."></td> 
+			<td><input type="button" value="=" id="="></td> 
+			<td><input type="button" value="+" id="+"></td> 
+		</tr> 
+	</table> 
+    <script src="logic.js" type="module"></script>
+</body> 
+
+</html> 
