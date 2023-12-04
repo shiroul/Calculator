@@ -52,31 +52,27 @@ Before running the project, ensure you have a modern web browser that supports H
 ### Basic Operations
 
 1. **Addition:**
+   - Enter the first number.
    - Click the `+` button.
-   - Enter the first number.
-   - Press the `=` button.
    - Enter the second number.
    - Press the `=` button to view the result.
 
-2. **Subtraction:**
+3. **Subtraction:**
+   - Enter the first number.
    - Click the `-` button.
-   - Enter the first number.
-   - Press the `=` button.
    - Enter the second number.
    - Press the `=` button to view the result.
 
-3. **Multiplication:**
+4. **Multiplication:**
+   - Enter the first number.
    - Click the `*` button.
-   - Enter the first number.
-   - Press the `=` button.
    - Enter the second number.
    - Press the `=` button to view the result.
 
-4. **Division:**
+5. **Division:**
+   - Enter the first number.
    - Click the `/` button.
-   - Enter the dividend.
-   - Press the `=` button.
-   - Enter the divisor.
+   - Enter the second number.
    - Press the `=` button to view the result.
 
 ### Additional Features
